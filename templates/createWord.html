@@ -1,0 +1,7 @@
+
+<form method="POST">
+    {% csrf_token %}
+    {{ form }}
+    {{ error }}
+    <button type="submit">Save</button>
+</form>
